@@ -15,8 +15,8 @@ const options = {
     handleExceptions: true,
     json: false,
     colorize: true,
-  },
-};
+  }
+}
 
 const logger = winston.createLogger({
   levels: winston.config.npm.levels,
