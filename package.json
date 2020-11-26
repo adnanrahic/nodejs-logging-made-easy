@@ -15,5 +15,8 @@
     "morgan": "^1.10.0",
     "morgan-json": "^1.1.0",
     "winston": "^3.3.3"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
