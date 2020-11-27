@@ -3,6 +3,11 @@ const app = express()
 const logger = require('./logger')
 const httpLogger = require('./httpLogger')
 
+app.get('/bam', (req, res, next) => {
+  console.log('Bam!')
+  res.status(200).send('Bam!')
+})
+
 app.use(httpLogger)
 
 app.get('/', (req, res, next) => {
